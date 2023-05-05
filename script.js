@@ -2,8 +2,6 @@ document.querySelector('#push').onclick = function(){
     if(document.querySelector('#new-task input').value.length === 0){
         alert("Hey? don't you have a lot of activities today? :D")
     }
-
-    else{
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
                 <span id="taskname">
